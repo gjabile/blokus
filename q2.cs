@@ -8,13 +8,9 @@ namespace Bme121
 
     partial class Board
     {
-        // Part A:
-        // Write a representation of the board to the console.
-        
+        //MY CODE BEGINS      
         public void Display( )
-        {
-            // TO DO:
-            //Write Column numbers at top
+	{
            Write( "    ");
             for(int c =0; c< cols; c++)
             {
@@ -41,12 +37,7 @@ namespace Bme121
 			WriteLine();
            
         }
-        
-        // Part B:
-        // Update the board so a piece is placed at given coordinates.
-        // The method does not check whether the piece will avoid existing pieces
-        // on the board and will simply overwrite them.
-        
+     
         public void Place( Piece piece, int row, int col )
         {
             //check if the piece is null
@@ -89,12 +80,7 @@ namespace Bme121
 				}
 			}
         }
-        
-        // Part C:
-        // Test whether a piece will fit on the board at the given coordinates
-        // without overwriting other pieces.
-        // This method does not check whether the location is a valid Blokus play.
-        
+       
         public bool IsPlaceable( Piece piece, int row, int col )
         {
             //check if the piece is null
@@ -143,10 +129,7 @@ namespace Bme121
 			return true;
         }
 			
-        // Part D:
-        // Test whether placing a piece at the given coordinates is a valid play.
-        // This method does not check whether the location would overwrite other pieces.
-        
+
         public bool IsOkTouch( Piece piece, int row, int col )
         {
             //check if the piece is null
