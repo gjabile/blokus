@@ -2,7 +2,7 @@
 Included in this project are methods I coded for a command line playable version of the game blokus coded in C#.
 Blokus is an abstract strategy board game for two to four players, where players try to score points by occupying most of the board with pieces of their colour.
 
-NOTE: This project was coded for the BME 121 Final Exam so some of the code was not written by me. I have denoted this throughout!
+NOTE: This project was coded for the BME 121 Final Exam so some of the code was not written by me. I have denoted this throughout! The only file with code I personally wrote is in q2!
 
 Background info: 
 
